@@ -105,7 +105,7 @@ void setup() {
   }
 
   // Get information about the memory area to use for the model's input.
-  // commit test testestestes
+  // commit test
   model_input = interpreter->input(0);
   if ((model_input->dims->size != 2) || (model_input->dims->data[0] != 1) ||
       (model_input->dims->data[1] !=

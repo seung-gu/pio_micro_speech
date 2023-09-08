@@ -1,0 +1,6 @@
+{
+    "board": "arduino:mbed_nano:nano33ble",
+    "port": "/dev/ttyACM0",
+    "sketch": "micro_speech.ino",
+    "programmer": "cmsis-dap"
+}
